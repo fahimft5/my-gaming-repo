@@ -84,3 +84,45 @@ button:hover{
     font-size: 16px;
 }
 
+/* footer  */
+.media-info{
+    padding: 30px 0;
+    text-align: center;
+}
+.footer-logo{
+    width: 35%;
+    margin: auto;
+}
+.footer-logo img{
+    width: 100%;
+}
+
+.social-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-menu li{
+    list-style-type: none;
+    margin-right: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-menu li a{
+    text-decoration: none;
+}
+.social-menu li a i{
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer-title p{
+    font-size: 20px;
+    margin-top: 20px;
+}
